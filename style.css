@@ -1,0 +1,80 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(9, 46, 34);
+    padding: 12px 14px;
+    color: white;
+}
+.navbar a{
+    margin-right: 4px;
+}
+.navbar a:hover{
+    background-color: antiquewhite;
+    padding: 12px 14px;
+}
+/* header{
+     min-height: 50vh;   
+     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}  */
+.about{
+    margin-top: 50px;
+}
+.about .content{
+    display: flex;
+}
+.about h1{
+    text-align: center;
+}
+.about img{
+    max-width : 350px;
+    margin-left: 30 px;
+}
+.about p{
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.about button{
+    margin-left: 20px;
+    color:black;
+    background-color: bisque ;;
+}
+/* .service h1{
+    text-align: center;
+} */
+.card{
+    background-color: bisque;
+    padding: 30px 20px;
+    border:  solid black;
+    margin: 30px 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .container{
+    display: flex;
+} */
+.project{
+    display: flex;
+}
+.project h1{
+    text-align: center;
+}
+
+.project .card{
+    padding: 30px 30px;
+}
+.conatct h1{
+    text-align: center;
+}
+.input{
+    margin: 0px 300px;
+    padding: 2px;
+    margin-bottom: 50px;
+}
